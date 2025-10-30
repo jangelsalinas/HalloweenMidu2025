@@ -1,0 +1,26 @@
+{
+  "name": "halloweenmidu2025",
+  "version": "1.0.0",
+  "description": "Retos de javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run:dia01": "ts-node ejercicios/dia01.ts",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start:dia01": "npm run build && node dist/ejercicios/dia01.js",
+    "start:dia02": "npm run build && node dist/ejercicios/dia02.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "javascript",
+    "halloween",
+    "midudev"
+  ],
+  "author": "José Ángel Salinas",
+  "license": "ISC"
+}
