@@ -9,7 +9,8 @@
     "build": "tsc",
     "watch": "tsc -w",
     "start:dia01": "npm run build && node dist/ejercicios/dia01.js",
-    "start:dia02": "npm run build && node dist/ejercicios/dia02.js"
+    "start:dia02": "npm run build && node dist/ejercicios/dia02.js",
+    "start:dia03": "npm run build && node dist/ejercicios/dia03.js"
   },
   "devDependencies": {
     "@types/node": "^24.9.2",
